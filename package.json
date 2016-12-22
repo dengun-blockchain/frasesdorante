@@ -1,0 +1,46 @@
+{
+  "name": "quotechain",
+  "version": "0.0.1",
+  "description": "Website for blockchain enthusiasts",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "compile": "webpack --mode production",
+    "compile-dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Painatalman/frasesdomica.git"
+  },
+  "keywords": [
+    "random",
+    "rant",
+    "quotes",
+    "pt",
+    "blockchain"
+  ],
+  "author": "Carlos Batman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Painatalman/frasesdomica/issues"
+  },
+  "homepage": "https://github.com/Painatalman/frasesdomica#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-inline-svg-plugin": "^1.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.21.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

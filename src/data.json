@@ -1,0 +1,18 @@
+{
+  "quotes": [
+    "Faz um ICO!",
+    "$techs é o futuro!"
+  ],
+  "dialogs": [
+    [
+      "E como está o departamento de Blockchain?",
+      "Qual departamento?"
+    ]
+  ],
+  "extras": {
+    "techs": [
+      "blockchain",
+      "ICO"
+    ]
+  }
+}

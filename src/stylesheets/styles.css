@@ -1,0 +1,52 @@
+html,
+body {
+  position: relative;
+  padding: 0;
+  height : 100%;
+  background-color: hotpink;
+  overflow: hidden;
+}
+
+
+p {
+  margin: 4px 0;
+}
+
+  #quote {
+    font-family: "monospace";
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    font-size: 40px;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: white;
+  }
+
+  #quotebutton,
+  #twitteranchor {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+    transform : translate(-50%,-50%);
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  button {
+    border: 1px solid hotpink;
+  }
+
+  #twitteranchor {
+    top: 80%;
+
+    width: 34px;
+  }
+

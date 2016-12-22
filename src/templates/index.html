@@ -1,0 +1,24 @@
+<% // for (var file in htmlWebpackPlugin.files) { console.log(`DEBUGGER: ---${file}`) } %>
+<% // https://github.com/jaketrent/html-webpack-template/blob/86f285d5c790a6c15263f5cc50fd666d51f974fd/index.html for tips %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            <%= htmlWebpackPlugin.options.title %>
+        </title>
+        <style>
+            <%= require('../stylesheets/styles.css') %>
+        </style>
+    </head>
+    <body>
+        <div id="quote">
+            
+        </div>
+        <button id="quotebutton">Nova frase</button>
+        <a href='#' type="button" id="twitteranchor" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no');return false;">
+            <%= require('../svg/twitter.svg') %>
+        </a>
+        <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    </body>
+</html>
