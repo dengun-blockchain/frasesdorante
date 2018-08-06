@@ -1,7 +1,9 @@
 {
   "quotes": [
+    "$techs é o futuro!",
+    "Corrente do amor de Bloco!",
     "Faz um ICO!",
-    "$techs é o futuro!"
+    "Vamos criar uma $fakecoins?"
   ],
   "dialogs": [
     [
@@ -13,6 +15,11 @@
     "techs": [
       "blockchain",
       "ICO"
+    ],
+    "fakecoins": [
+      "Batmancoin",
+      "Hentaicoin",
+      "Herocoin"
     ]
   }
 }
